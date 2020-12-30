@@ -1,0 +1,12 @@
+IMConversation: isGroup(bool) -> chatType(int)
+	        - msgDisposeTimeSetByOther
+		- msgDisposeTimeSetBySelf
+		+ msgDisposeTime
+IMAccountStatus: + passcodeLock_enabled
+	         + passcodeLock_md5Code
+		 + passcodeLock_autoLockTime
+	         + passcodeLock_inputEnabledTime
+IMSavedGroup: groupId -> gid
++ IMUploadedMobileContact
++ IMBlockedContact
++ IMFriendRequest
